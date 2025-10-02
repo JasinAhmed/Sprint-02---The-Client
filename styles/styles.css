@@ -1,1 +1,98 @@
-/* CSS */
+:root {
+  --oranje: rgb(234,91,12);
+  --donkerblauw: rgb(51,52,103);
+  --lichtblauw: rgb(180,189,208);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222;
+  background: #f6f6f6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--donkerblauw);
+  color: #fff;
+}
+
+header img { height: 48px; width: auto; display: block; }
+
+header nav { flex: 1; }
+header nav ul {
+  margin: 0;
+  padding: 0 0 0 12px;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+header nav a {
+  display: block;
+  padding: 8px 12px;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+header nav a:hover { background: rgba(255,255,255,.15); }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 12px;
+}
+section, article, aside {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+
+footer {
+  background: var(--donkerblauw);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+/* Afbeeldingen */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+figure {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+figcaption { font-size: 12px; color: #666; }
+
+/* Mobiel */
+@media (max-width: 640px) {
+  header { padding: 6px 10px; }
+  header img { height: 36px; }
+  header nav { width: 100%; order: 2; margin-top: 6px; }
+  header nav ul { padding-left: 0; }
+  header nav a { padding: 10px 14px; }
+
+  figure { max-width: 100%; }
+  img { max-height: 70vh; }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  main { grid-template-columns: 2fr 1fr; }
+}

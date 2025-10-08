@@ -21,6 +21,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 
 Op deze website zie je een digitale versie van de Buurtcampuskrant. Met de navigatie kan je naar krantstukken over verschillende buurten en algemene zaken. In de navigatie is het tabje dikgedrukt om te laten zien dat je op die pagina bent. Ook als je hovert krijg wordt het woord een andere kleur en er komt een lijn onder wat laat zien dat het klikbaar is. Met de knop rechtsonder kan je meteen naar boven scrollen.
 
+<img width="1800" height="760" alt="all-devices-black" src="https://github.com/user-attachments/assets/2eb65d22-435d-4fe6-b7a6-8240fb6b92e3" />
 
 
 ## Kenmerken

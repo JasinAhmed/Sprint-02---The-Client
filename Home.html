@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home · Buurtcampus</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo-link">
+        <img src="assets/Lang_Blurple buurtcampus.png" alt="Buurtcampus logo" />
+      </a>
+
+      <div class="header-inner">
+        <nav>
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="algemeen.html">Algemeen</a></li>
+            <li><a href="zuidoost.html">Zuidoost</a></li>
+            <li><a href="oost.html">Oost</a></li>
+            <li><a href="nieuwwest.html">Nieuw-West</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Buurtcampus</h1>
+        <p>Samen leren, doen en verbinden in de wijk.</p>
+      </div>
+    </section>
+
+    <main class="home">
+      <section class="intro-band">
+        <div class="intro-inner">
+          <div class="intro-col">
+            <p>
+              De Buurtcampus is een leeromgeving van de Hogeschool van Amsterdam
+              in samenwerking met de Openbare Bibliotheek van Amsterdam.
+            </p>
+            <p>
+              Met drie Buurtcampussen in verschillende stadsdelen richten wij
+              ons op actuele uitdagingen in de wijken van Amsterdam.
+            </p>
+          </div>
+          <div class="intro-col">
+            <p>
+              Ons doel is om de wijk met haar bewoners en organisaties te
+              verbinden met studenten. In samenwerking met docenten en
+              onderzoekers willen we een rijke leeromgeving creëren en een
+              divers programma ontwikkelen voor de buurt.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <figure>
+        <img src="assets/bonusklas03.jpg" alt="Studenten en buurtbewoners aan het werk in de Buurtcampus" />
+        <figcaption>Samenwerken en leren in de Buurtcampus</figcaption>
+      </figure>
+
+      <section class="home-cards">
+        <article>
+          <h2>Projecten</h2>
+          <p>Ontdek de lopende initiatieven en samenwerkingen in de buurt.</p>
+        </article>
+
+        <figure>
+          <img src="assets/project .jpg" alt="Studenten werken aan een buurtproject" />
+          <figcaption>Buurtprojecten waarin studenten en bewoners samenwerken</figcaption>
+        </figure>
+
+        <article>
+          <h2>Doe mee</h2>
+          <p>Sluit aan bij workshops, activiteiten of onderzoeksprojecten.</p>
+        </article>
+
+        <figure>
+          <img src="assets/activiteiten.jpg" alt="Buurtbewoners doen mee aan een workshop" />
+          <figcaption>Iedereen kan meedoen aan activiteiten en workshops</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Buurtcampus</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
